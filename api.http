@@ -1,0 +1,12 @@
+POST http://localhost:3000/notifications
+Content-Type: application/json
+
+{
+  "content": "Voce tem uma nova solicitação de amizade!",
+  "category": "social",
+  "recipientId": "hauihaiuha"
+}
+
+###
+
+GET http://localhost:3000/notifications
